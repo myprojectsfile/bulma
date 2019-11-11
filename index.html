@@ -4,26 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Learning Bulma</title>
-    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
+    <script src="./dist/main.js"></script>
+    <title>Bulma Framework</title>
   </head>
   <body>
-    <section class="hero is-large is-warning is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Primary bold title
-          </h1>
-          <h2 class="subtitle">
-            Primary bold subtitle
-          </h2>
-          <div class="container">
-            <button class="button is-dark is-outlined is-small">
-              Send Me To Home
-            </button>
+    <div class="columns">
+      <div class="column">
+        First column
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="flower.jpg" alt="Image" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="http://bulma.io/images/placeholders/96x96.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a>#css</a>
+              <a>#responsive</a>
+              <br />
+              <small>11:09 PM - 1 Jan 2016</small>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="column">
+        Third column
+      </div>
+    </div>
   </body>
 </html>
