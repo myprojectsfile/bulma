@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "webpack --mode production",
-    "start": "browser-sync start  --no-notify --server --files \"index.html\""
+    "start": "browser-sync start  --no-notify --server --files \"*.html\""
   },
   "repository": {
     "type": "git",
